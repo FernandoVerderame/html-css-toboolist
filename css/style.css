@@ -22,6 +22,9 @@ h1 {
 .container {
     max-width: 920px;
     margin: 0 auto;
+    background-color: white;
+    margin-top: 40px;
+    padding: 12px;
 }
 
 
@@ -34,4 +37,30 @@ h1 {
 
 #logo {
     vertical-align: middle;
+}
+
+
+/* Main */
+.container.small {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.button.blue {
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.button.white {
+    color: grey;
+    background-color: white;
+    border: 2px solid gray;
 }
