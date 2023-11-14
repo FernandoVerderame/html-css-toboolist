@@ -8,6 +8,13 @@
 /* Generics */
 body {
 background-color: lightgreen;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline;
+    font-weight: 1000;
+    vertical-align: middle;
 }
 
 
@@ -15,4 +22,16 @@ background-color: lightgreen;
 .container {
     max-width: 920px;
     margin: 0 auto;
+}
+
+
+/* Header */
+#main-header {
+    height: 80px;
+    background-color: white;
+    padding-top: 12px;
+}
+
+#logo {
+    vertical-align: middle;
 }
