@@ -17,6 +17,13 @@ h1 {
     vertical-align: middle;
 }
 
+li {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 25px;
+}
 
 /* Utils*/
 .container {
@@ -27,15 +34,21 @@ h1 {
     padding: 12px;
 }
 
-span {
-    vertical-align: middle;
+.box-multicolor {
+    border: 1px solid black;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
 }
+
 
 /* Header */
 #main-header {
     height: 80px;
     background-color: white;
     padding-top: 12px;
+    padding-left: 20px;
 }
 
 #logo {
@@ -47,8 +60,12 @@ span {
 .container.small {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    padding-left: 35px;
+
 }
 
+
+/*  Main - Buttons */
 .button {
     height: 40px;
     border-radius: 5px;
@@ -66,4 +83,38 @@ span {
     color: grey;
     background-color: white;
     border: 2px solid gray;
+}
+
+
+/*  Main - Lista di cose da fare */
+.container.big {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 2px;
+    padding-left: 35px;
+
+}
+
+.box-multicolor.dodgerblue {
+    background-color: dodgerblue;
+}
+
+.box-multicolor.violet {
+    background-color: violet;
+}
+
+.box-multicolor.green {
+    background-color: green;
+}
+
+.box-multicolor.orange {
+    background-color: orange;
+}
+
+.box-multicolor.purple {
+    background-color: purple;
+}
+
+.box-multicolor.lightgreen {
+    background-color: lightgreen;
 }
