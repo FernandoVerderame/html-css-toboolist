@@ -27,6 +27,9 @@ h1 {
     padding: 12px;
 }
 
+span {
+    vertical-align: middle;
+}
 
 /* Header */
 #main-header {
