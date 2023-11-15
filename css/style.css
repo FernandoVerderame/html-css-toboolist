@@ -133,9 +133,11 @@ h2 {
 
 .circle.verified {
     color: rgb(120, 201, 0);
+    vertical-align: middle;
 }
 
 .circle.not-verified {
     color: red;
+    vertical-align: middle;
 }
 
